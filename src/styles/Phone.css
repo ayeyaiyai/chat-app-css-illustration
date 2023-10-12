@@ -5,9 +5,8 @@
     height: 600px;
     width: 320px;
     background-color: white;
-    margin-left: 24px;
     border-radius: 34px;
-    box-shadow: (15, 15, 15, black);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.144);
 }
 
 .phone-top {
@@ -59,6 +58,9 @@
     border-radius: 50px;
     background-color: white;
     margin-right: 12px;
+    background-image: url('../images/avatar.jpg');
+    background-size: 100% 100%;
+    border: 2px solid white;
 }
 
 .contact-name {
@@ -67,7 +69,8 @@
 }
 
 .contact-availability {
-    font-size: 10px;
+    font-size: 11px;
+    font-weight: 700;
     color: rgba(255, 255, 255, 0.575);
     transform: translateY(-4px);
 }
@@ -75,7 +78,7 @@
 .phone-body {
     width: 290px;
     height: 487px;
-    background-color: #f5f3f8;
+    background-color: #eeeeee;
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 24px;
     transform: translateY(-4px);
@@ -114,6 +117,19 @@
     margin-right: 10px;
     border-radius: 12px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.144);
+    background-size: 100% 100%;
+}
+
+.dog-photo-one {
+    background-image: url('../images/dog-image-1.jpg');
+}
+
+.dog-photo-two {
+    background-image: url('../images/dog-image-2.jpg');
+}
+
+.dog-photo-three {
+    background-image: url('../images/dog-image-3.jpg');
 }
 
 .right-align {
@@ -155,7 +171,7 @@
     height: 16px;
     width: 16px;
     border-radius: 50px;
-    border: 2px solid rgba(255, 255, 255, 0.171);
+    border: 2px solid rgba(255, 255, 255, 0.404);
     margin-right: 12px;
 }
 
@@ -191,7 +207,7 @@
     height: 32px;
     width: 32px;
     border-radius: 50px;
-    margin-left: 120px;
+    margin-left: 130px;
 }
 
 .right-arrow-span {

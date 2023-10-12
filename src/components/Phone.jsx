@@ -1,4 +1,5 @@
 import '../styles/Phone.css';
+import dogPhotoOne from '../images/dog-image-1.jpg';
 
 function Phone(){
     return (
@@ -20,9 +21,9 @@ function Phone(){
                     <div className='message left-align top-message'>That sounds great. I'd be happy to discuss more.</div>
                     <div className='message left-align'>Could you send over some pictures of your dog, please?</div>
                     <div className='image-row'>
-                        <div className='image-box'></div>
-                        <div className='image-box'></div>
-                        <div className='image-box'></div>
+                        <div className='image-box dog-photo-one'></div>
+                        <div className='image-box dog-photo-two'></div>
+                        <div className='image-box dog-photo-three'></div>
                     </div>
                     <div className='message right-align'>Here are a few pictures. She's a happy girl!</div>
                     <div className='message last-right-message'>Can you make it?</div>

@@ -1,0 +1,134 @@
+.component-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+}
+
+.phone {
+    transform: scale(1.35);
+}
+
+.purple-section {
+    height: 90vh;
+    width: 24.5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: purple;
+    background-image: linear-gradient(to bottom, #e146fc, #913bff);
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+
+.grey-section {
+    height: 80vh;
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    background-color: #f9f4fa; 
+    transform: translateY(20px);
+}
+
+.center-component {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 3;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.text-title {
+    color: #341e45;
+    font-size: 48px;
+}
+
+.text-description {
+    margin-top: 24px;
+    font-size: 20px;
+    color: #a5a0a7;
+}
+
+@media (max-width: 1655px) {
+    .phone {
+        transform: scale(1.1);
+    }
+
+    .text-container {
+        width: 400px;
+    }
+
+    .text-title {
+        font-size: 32px;
+    }
+
+    .text-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .phone {
+        transform: scale(.95);
+    }
+}
+
+@media (max-height: 800px) {
+    .phone {
+        transform: scale(.75);
+    }
+}
+
+@media (max-width: 1030px) {
+    .center-component {
+        min-width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .purple-section {
+        width: 50%;
+        height: 75%;
+    }
+
+    .grey-section {
+        display: none;
+    }
+
+    .phone {
+        margin-top: 96px;
+    }
+
+    .text-container {
+        display: flex;
+        align-items: center;
+        width: 85%;
+        text-align: center;
+    }
+
+    .text-title {
+        font-size: 42px;
+    }
+
+    .text-description {
+        margin-bottom: 48px;
+    }
+}
